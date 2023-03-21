@@ -26,8 +26,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true)
-    emailjs.send('service_xjkw2m8', 
-    'template_vgjk2is',
+    emailjs.send('',
     {
       from_name: form.name,
       to_name: 'Poovanna',
